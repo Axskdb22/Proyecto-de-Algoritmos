@@ -2,4 +2,7 @@
 zig-out/
 zig-pkg/
 *.o
+<<<<<<< HEAD
 .vs/
+=======
+>>>>>>> 22eff58fb3c5787f47d68e9026bc1490145c83a3
