@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Sistema de Caja\\x64\\Debug\\Sistema de Caja.obj",
+            "outputs": [
+                "Sistema de Caja\\x64\\Debug\\Sistema de Caja.cpp.obj.dt.module.json",
+                "Sistema de Caja\\x64\\Debug\\Sistema de Caja.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
