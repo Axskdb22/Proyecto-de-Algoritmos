@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Sistema de Caja.vcxproj" />
+  <Project Path="Sistema de Caja.vcxproj" Id="4dcfaed8-7d84-401e-b2a2-bdeaf78a5999" />
 </Solution>
