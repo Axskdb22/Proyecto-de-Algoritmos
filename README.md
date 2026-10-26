@@ -5,5 +5,7 @@ Asta el momento, este proyecto se encuentra en desarrollo y no está completo. E
 
 Se adjuntaran las pruebas sobre uso de IA para Hito 2 y el la creacion del repo desde terminal, y creacion y avances pertenecientes a Hito 1.
 
+[HITO 2 Algoritmos.pdf](https://github.com/user-attachments/files/33945796/HITO.2.Algoritmos.pdf)
+[HITO 1 Algoritmos.pdf](https://github.com/user-attachments/files/33945795/HITO.1.Algoritmos.pdf)
 
 
