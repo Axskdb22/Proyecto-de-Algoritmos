@@ -178,4 +178,4 @@ Comprobé los resultados con los casos de pruebas indicadas en la parte del Hito
 
 ### Declaración
 
-Entiendo el código entregado y puedo explicar cómo funciona cada parte ya que los fue elaborado a mano.
+Se adjuntaran las pruebas sobre uso de IA para Hito 2 y el la creacion del repo desde terminal, y creacion y avances pertenecientes a Hito 1.
