@@ -1,6 +1,5 @@
 #include <iostream>
 #include <iomanip>
-#include <string>
 #include <limits>
 #include <cmath>
 
@@ -10,7 +9,7 @@ int main() {
     int opcion;
     int CantidadVentas = 0;
     double TotalDia = 0;
-	double Descuentos = 0;
+	double TotalDescuentos = 0;
 	double VentaMayor = 0;
 	double VentaMenor = 0;
 
@@ -56,7 +55,7 @@ int main() {
                     bool cantidadValida = false;
 
                     do {
-                        cout << "Ingrese la cantidad del producto (1 a 100, 0 para terminar): ";
+                        cout << "Ingrese la cantidad del producto (0 para terminar): ";
                         cin >> Cantidad;
 
                         if (cin.fail() || cin.peek() != '\n') {
@@ -69,7 +68,7 @@ int main() {
                             cantidadValida = true;   // sale del ciclo de la cantidad
                         }
                         else if (Cantidad < 1 || Cantidad > 100) {
-                            cout << "Cantidad invalida. Ingrese un numero entre 1 y 100." << endl;
+                            cout << "Cantidad invalida. Ingrese un numero entero (0 para terminar)." << endl;
                         }
                         else {
                             cantidadValida = true;
@@ -134,7 +133,23 @@ int main() {
 			cout << "Monto recibido: Q. " << MontoRecibido << endl;
 			cout << "Cambio: Q. " << Cambio << endl;
 
+			//-------------Actualizadores del dia----------------//
+
             TotalDia += TotalaPagar;
+			TotalDescuentos += Descuento;
+			if (CantidadVentas == 0) {
+				VentaMayor = TotalaPagar;
+				VentaMenor = TotalaPagar;
+			}
+			else {
+				if (TotalaPagar > VentaMayor) {
+					VentaMayor = TotalaPagar;
+				}
+				if (TotalaPagar < VentaMenor) {
+					VentaMenor = TotalaPagar;
+				}
+			}
+
             CantidadVentas++;
 
             break;
@@ -142,12 +157,16 @@ int main() {
 
         case 2:
             cout << "\n--- Resumen parcial del dia ---" << endl;
+            if (CantidadVentas > 0) {
             cout << "Cantidad de ventas: " << CantidadVentas << endl;
             cout << "Total del dia: Q. " << TotalDia << endl;
-            if (CantidadVentas > 0) {
-                double Promedio = TotalDia / CantidadVentas;
-                cout << "Promedio de ventas: Q. " << Promedio << endl;
+            cout << "Venta Mayor: Q. " << VentaMayor << endl;
+            cout << "Venta Menor: Q. " << VentaMenor << endl;
+            cout << "Total Descuentos otorgados: Q. " << TotalDescuentos << endl;
+            cout << "Promedio de ventas: Q. " << TotalDia / CantidadVentas << endl;
+
             }
+
             else {
                 cout << "No se han registrado ventas." << endl;
             }
@@ -155,9 +174,18 @@ int main() {
 
         case 3:
             cout << "\n--- Cerrando caja ---" << endl;
-            cout << "Cantidad de ventas: " << CantidadVentas << endl;
-            cout << "Total del dia: Q. " << TotalDia << endl;
-            cout << "Gracias por usar el sistema de caja. Hasta luego!" << endl;
+            if (CantidadVentas > 0) {
+                cout << "Cantidad de ventas: " << CantidadVentas << endl;
+                cout << "Total vendido: Q. " << TotalDia << endl;
+                cout << "Venta mayor: Q. " << VentaMayor << endl;
+                cout << "Venta menor: Q. " << VentaMenor << endl;
+                cout << "Promedio por venta: Q. " << TotalDia / CantidadVentas << endl;
+                cout << "Total de descuentos otorgados: Q. " << TotalDescuentos << endl;
+            }
+            else {
+                cout << "No se registraron ventas en el dia." << endl;
+                cout << "Gracias por usar el sistema de caja. Hasta luego!" << endl;
+            }
             break;
 
         default:
