@@ -3,6 +3,13 @@
 - **Estudiante:** Axel Denilson Cuc Sopon
 - **Carné:** 2790-26-29022
 - **Curso:** Algoritmos
+- 
+HITOS:
+
+[HITO 1 Algoritmos.pdf](https://github.com/user-attachments/files/34248922/HITO.1.Algoritmos.pdf)
+[HITO 2 Algoritmos.pdf](https://github.com/user-attachments/files/34248924/HITO.2.Algoritmos.pdf)
+[HITO 3 Algoritmos.pdf](https://github.com/user-attachments/files/34249081/HITO.3.Algoritmos.pdf)
+
 
 ---
 
