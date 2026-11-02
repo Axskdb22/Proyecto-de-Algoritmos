@@ -7,8 +7,14 @@
 HITOS:
 
 [HITO 1 Algoritmos.pdf](https://github.com/user-attachments/files/34248922/HITO.1.Algoritmos.pdf)
+
 [HITO 2 Algoritmos.pdf](https://github.com/user-attachments/files/34248924/HITO.2.Algoritmos.pdf)
+
 [HITO 3 Algoritmos.pdf](https://github.com/user-attachments/files/34249081/HITO.3.Algoritmos.pdf)
+
+VIDEO DEMOSTRATIVO:
+
+https://docs.google.com/videos/d/1ctwNB6QoGhF3qvnBQg3Vmge7NSk8OTNHvRVTa3atmEQ/edit?usp=sharing
 
 
 ---
