@@ -12,6 +12,12 @@ HITOS:
 
 [HITO 3 Algoritmos.pdf](https://github.com/user-attachments/files/34249081/HITO.3.Algoritmos.pdf)
 
+PRUEBAS DE COMMITS:
+
+[HISTORIAL DE COMMITS del Repositorio.pdf](https://github.com/user-attachments/files/34296126/HISTORIAL.DE.COMMITS.del.Repositorio.pdf)
+
+
+
 VIDEO DEMOSTRATIVO:
 
 https://docs.google.com/videos/d/1ctwNB6QoGhF3qvnBQg3Vmge7NSk8OTNHvRVTa3atmEQ/edit?usp=sharing
